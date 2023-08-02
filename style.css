@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body::-webkit-scrollbar{display: none;}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color:#2b2727;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
