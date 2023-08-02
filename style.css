@@ -10,6 +10,7 @@ html {
     width: 100%;
 }
 body {
+    position: fixed;
     background-color:#2b2727;
     height: 100%;
     width: 100%;
@@ -88,4 +89,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.video-container {
+    z-index: 99
 }
