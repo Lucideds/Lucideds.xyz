@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@keyframes start {
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
+  }
 body::-webkit-scrollbar{display: none;}
 html {
+    opacity: 100%;
     height: 100%;
     width: 100%;
 }
@@ -20,5 +25,67 @@ body {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    animation-delay: 1s;
+    animation-name: start;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+h1 {
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    font-size: 45px;
+    color: white;
+    left: 44px;
+    top: 0px;
+    opacity: 0%;
+    animation-delay: 1.7s;
+    animation-name: start;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+h2 {
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color: white;
+    left: 44px;
+    opacity: 0%;
+    animation-delay: 2.1s;
+    animation-name: start;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+.status {
+    position: relative;
+    left: 44px;
+    opacity: 0%;
+    animation-delay: 1.7s;
+    animation-name: start;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    opacity: 0%;
+    animation-delay: 1.7s;
+    animation-name: start;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+.social {
+    left: 44px;
+    position: relative;
+    top: 105px;
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    background: #2B2B2B;
+    box-shadow:  4px 4px 7px #272727, -4px -4px 7px #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
