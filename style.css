@@ -91,5 +91,6 @@ h2 {
     align-items: center;
 }
 .video-container {
-    z-index: 99
+    z-index: 99;
+    background-size: cover;
 }
