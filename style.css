@@ -94,3 +94,7 @@ h2 {
     z-index: 99;
     background-size: cover;
 }
+.chopper {
+    position: relative;
+    left:100px;
+}
